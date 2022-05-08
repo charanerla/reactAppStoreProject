@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-store-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100%;
+}
+.app-store-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  text-align: center;
+}
+.search-input-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #7b8794;
+  border-radius: 4px;
+  background-color: transparent;
+  width: 60vw;
+  padding-left: 10px;
+}
+.app-search {
+  background-color: transparent;
+  color: #1e293b;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+}
+.search-icon {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+}
+
+.unOrder-list-of-tabItems {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 30px;
+  border-bottom: 2px solid #dfe2e5;
+}
+
+.apps-container {
+  width: 90vw;
+}
+.unOrdered-list-of-apps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
